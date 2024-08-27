@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mopylib"
+version = "0.1.0"
+description = "Python Library to learn Orbital Mechanics"
+authors = ["iamlrk <lepakshiramkiran@hotmail.com>"]
+license = "GNU GPL v3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scipy = "^1.14.1"
+numpy = "^2.1.0"
+matplotlib = "^3.9.2"
+plotly = "^5.23.0"
+typing-extensions = "^4.12.2"
+typing = "^3.10.0.0"
+pandas = "^2.2.2"
+turtle = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
